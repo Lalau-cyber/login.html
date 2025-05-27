@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var TotalPaesVendidos, TotalBroasVendidos
+var ValorArrecadadoPaes, ValorArrecadadoBroas
+let ValortotalArrecadado
+let poupar
+
+TotalPaesVendidos= Number(prompt("quantos paes voce vendeu?"))
+TotalBroasVendidos=Number(prompt("quantas broas voce vendeu?"))
+
+ValorArrecadadoPaes = 0.12 * TotalPaesVendidos
+ValorArrecadadoBroas = 1.50 * TotalBroasVendidos
+
+ValortotalArrecadado = ValorArrecadadoPaes + ValorArrecadadoPaes
+
+poupar = ValortotalArrecadado * 10 / 100
+
+alert("voce vendeu "+TotalPaesVendidos+" paes")
+alert("voce vendeu "+TotalBroasVendidos+ " broas")
+alert("voce arrecadou no total "+ValorArrecadadoBroas+" reais 😁")
+alert("o dono da padaria devera poupar "+ poupar+ " 😁")
+
+
+    </script>
+</body>
+</html>
