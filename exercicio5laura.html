@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        .formulario{
+           display: grid;
+           grid-template-columns : 1fr 1fr;
+        }
+        .button{
+            background-color: red;
+           align-items: center;
+           padding: 10px 20px;
+           border: 1px solid rgb(70, 31, 31);
+           display: block;
+           margin: auto;
+           cursor: pointer;
+
+        }
+        .input{
+          width: 30px;
+          height:25px ;
+          margin: 20px ;
+          padding: 10px 10px;
+        }
+    </style>
+    <div>
+    <form class="formulario">
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Telefone">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Cidade">
+        <button>Enviar</button>
+    </form>
+    </div>
+    
+      
+</body>
+</html>
